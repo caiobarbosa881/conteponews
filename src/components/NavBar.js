@@ -29,18 +29,18 @@ function NavBar() {
                     </li>
 
                     <li className='nav-item'>
-                        <Link to='/Services/Services' className='nav-links'>
+                        <Link to='/Services' className='nav-links'>
                             Serviços
                         </Link>
                     </li>
 
                     <li className='nav-item'>
-                        <Link to='/products' className='nav-links'>
+                        <Link to='/Products' className='nav-links'>
                             Produtos
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/products' className='nav-links'>
+                        <Link to='/Footer' className='nav-links'>
                             Contatos
                         </Link>
                     </li>
