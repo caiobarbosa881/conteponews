@@ -9,7 +9,7 @@ import {
   FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
-import { MdFingerprint } from 'react-icons/md';
+import { BsNewspaper } from 'react-icons/bs';
 
 function Footer() {
   return (
@@ -52,11 +52,11 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              <MdFingerprint className='navbar-icon' />
-              LAVISH
+              <BsNewspaper className='navbar-icon' />
+              CONTEPONEWS
             </Link>
           </div>
-          <small className='website-rights'>LAVISH © 2020</small>
+          <small className='website-rights'>CONTEPONEWS © 2020</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link'

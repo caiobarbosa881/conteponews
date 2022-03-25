@@ -3,11 +3,11 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Acesso exclusivo',
-    headline: 'transações ilimitadas com taxa zero',
-    description: 'Tenha Acesso para nosso cartão de diamante exclusivo que vai te permitir mandar transações ilimitadas sem qualquer taxa.',
-    buttonLabel: 'Vamos Começar',
+    headline: 'As melhores notícias ao redor do globo',
+    description: 'Tenha Acesso para nossas notícias em tempo real, se junte a nossas centenas de leitores e consiga o melhor das novidades.',
+    buttonLabel: 'Começar Agora',
     imgStart: '',
-    img: 'images/svg-1.svg',
+    img: 'images/news1.svg',
     alt: 'Essa é a imagem de um cartão de crédito que é uma ferramenta que pode ser usada para comprar'
 }
 
@@ -15,13 +15,13 @@ export const homeObjTwo = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: '100% SEGURO',
-    headline: 'Seja protegido todos os dias por 24 horas',
+    topLine: 'SEGURO E PROFISSIONAL',
+    headline: 'Tenha notícias Confiáveis',
     description:
-      'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-    buttonLabel: 'Learn More',
+      'Temos um sistema contra Fake News extremamente preciso assim a informação se torna limpa e segura.',
+    buttonLabel: 'Começar Agora',
     imgStart: '',
-    img: 'images/svg-5.svg',
+    img: 'images/news2.svg',
     alt: 'Vault'
   };
   
@@ -29,13 +29,13 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'EASY SETUP',
-    headline: 'Super fast and simple onboarding process',
+    topLine: 'SUPER FÁCIL',
+    headline: 'Simples de conseguir acessar',
     description:
-      "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-    buttonLabel: 'Start Now',
+      "Insira o necessário e em menos de 10 minutos você já tem tudo que precisa para começar sua assinatura sem complicações.",
+    buttonLabel: 'Começar Agora',
     imgStart: 'start',
-    img: 'images/svg-7.svg',
+    img: 'images/news3.svg',
     alt: 'Vault'
   };
   
@@ -43,12 +43,12 @@ export const homeObjTwo = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'DATA ANALYTICS',
-    headline: 'Every transaction is stored on our secure cloud database',
+    topLine: 'BAIXE NOSSAS NOTÍCIAS',
+    headline: 'Você pode ter as notícias no seu dispositivo sem internet',
     description:
-      'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-    buttonLabel: 'Sign Up Now',
+      'Ao fim da página que estiver lendo você tem o poder de guardar e ler posteriormente.',
+    buttonLabel: 'Começar Agora',
     imgStart: 'start',
-    img: 'images/svg-8.svg',
+    img: 'images/news4.svg',
     alt: 'Vault'
   };

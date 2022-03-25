@@ -19,6 +19,9 @@
     transform: scale(1.05);
     background: #242424;
   }
+  .pricing__container-card:nth-child(3) {
+    background: #f5f247;
+  }
   
   .pricing__container-card:hover {
     transform: scale(1.06);
