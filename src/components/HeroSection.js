@@ -13,8 +13,12 @@ function HeroSection({
          description,
           buttonLabel,
             alt,
-             imgStart,
+             imgStart,        
 }) {
+    function scrollToTop(){
+        window.scroll.To(0,0);
+    }
+
   return (
       <>
     <div className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}>
@@ -26,8 +30,8 @@ function HeroSection({
                         <div className='top-line'>{topLine}</div>
                     <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
                     <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'}>{description}</p>
-                    <Link to="/sign-up">
-                    <Button buttonSize='btn--wide' buttonColor='blue'>{buttonLabel}</Button>
+                    <Link to="/services" onClick={scrollToTop}>
+                    <Button>{buttonLabel}</Button>
                     </Link>
                         </div>
                     </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
 import {
   FaFacebook,
@@ -18,7 +17,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Sobre Nós</h2>
-            <Link to='/sign-up'>Como Funciona</Link>
+            <Link to='/'>Como Funciona</Link>
             <Link to='/'>Depoimentos</Link>
             <Link to='/'>Carreiras</Link>
             <Link to='/'>Termos de Serviços</Link>

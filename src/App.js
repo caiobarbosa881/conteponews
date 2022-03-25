@@ -8,6 +8,7 @@ import Products from './components/pages/Products/Products';
 import Services from './components/pages/Services/Services';
 
 
+
 function App() {
   return (
     <Router>
@@ -17,7 +18,7 @@ function App() {
           <Route path='/products' element={Products()} />
           <Route path='/services' element={Services()} />
           <Route path='/services' element={Services()} />
-        </Routes>
+      </Routes>
     </Router>
   );
 }

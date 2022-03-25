@@ -52,3 +52,7 @@ export const homeObjTwo = {
     img: 'images/news4.svg',
     alt: 'Vault'
   };
+
+  export const animationData = {
+    logoMove: false,
+  }
