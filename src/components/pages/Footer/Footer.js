@@ -18,25 +18,25 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>Sobre Nós</h2>
             <Link to='/'>Como Funciona</Link>
-            <Link to='/'>Depoimentos</Link>
-            <Link to='/'>Carreiras</Link>
+            <Link to='/'>Nossa História</Link>
+            <Link to='/'>Vagas Disponíveis</Link>
             <Link to='/'>Termos de Serviços</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Nos Contate</h2>
-            <Link to='/'>Contato</Link>
+            <Link to='/'>Telefone</Link>
             <Link to='/'>Suporte</Link>
-            <Link to='/'>Destinos</Link>
-            <Link to='/'>Patrocínios</Link>
+            <Link to='/'>WhatsApp</Link>
+            <Link to='/'>Email</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Mandar Vídeo</Link>
-            <Link to='/'>Embaixadores</Link>
-            <Link to='/'>Agência</Link>
-            <Link to='/'>Influenciadores</Link>
+            <h2>Suporte</h2>
+            <Link to='/'>Enviar Ticket</Link>
+            <Link to='/'>Seja um Colaborador</Link>
+            <Link to='/'>Tire Dúvidas</Link>
+            <Link to='/'>Nossos Horários</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Páginas</h2>
