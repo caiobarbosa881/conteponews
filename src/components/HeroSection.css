@@ -25,12 +25,6 @@
     flex-basis: 50%;
   }
   
-  .home__hero-text-wrapper {    
-    max-width: 540px;
-    padding-top: 0;
-    padding-bottom: 60px;
-  }
-  
   .top-line {
     color: #f00946;
     font-size: 16px;
@@ -74,13 +68,25 @@
     margin-right: 0;
     margin-left: 10px;
     padding-right: 0;
-  }
-  
+  } 
   img {
     border: 0;
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
+  }
+  .home__hero-text-wrapper-out{
+    position: absolute;
+    left: -1000px;
+    transition: 5s;
+  }
+  .home__hero-text-wrapper {    
+    position: relative;
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+    left: 0px;
+    transition: 3s;
   }
   
   @media screen and (max-width: 991px) {

@@ -8,7 +8,8 @@ export const homeObjOne = {
     buttonLabel: 'Começar Agora',
     imgStart: '',
     img: 'images/news1.svg',
-    alt: 'Essa é a imagem de um cartão de crédito que é uma ferramenta que pode ser usada para comprar'
+    alt: 'Essa é a imagem de um cartão de crédito que é uma ferramenta que pode ser usada para comprar',
+    animation: true,
 }
 
 export const homeObjTwo = {
