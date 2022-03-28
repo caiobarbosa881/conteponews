@@ -9,14 +9,21 @@ function NavBar() {
 
     const [click, setClick] = useState(false);
 
+    const [logo, setLogo] = useState(false);
+
+    window.addEventListener('load', () => {
+        setLogo(true);
+    });
+
+
     const handleClick = () => setClick(!click);
 
   return (
     <>
         <div className='navbar'>
-            <div className='navbar-container container'>
+            <div className='navbar-container container' id='navbar-container-id'>
                 <Link to='/' className="navbar-logo">
-                    <BsNewspaper className="navbar-icon"/>
+                    <BsNewspaper className={ logo ? "navbar-icon-in" : "navbar-icon-out" }/>
                     ContepoNews
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>

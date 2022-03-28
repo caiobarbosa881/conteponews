@@ -50,8 +50,16 @@
     display: flex;
     align-items: center;
   }
-  .navbar-icon {
+  .navbar-icon-out {
+    position: absolute;
+    top: -200px;
+  }
+  .navbar-icon-in {
+    position: relative;
+    top: 0;
     margin-right: 0.5rem;
+    transition: 1s;
+
   }
   #navbar-animation{
     background-color: aqua;
@@ -86,11 +94,9 @@
   .fa-bars {
     color: #fff;
   }
-  
-  .menu-icon {
+  .menu-icon{
     display: none;
   }
-  
   @media screen and (max-width: 960px) {
     .NavbarItems {
       position: relative;
