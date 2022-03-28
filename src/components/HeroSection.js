@@ -20,11 +20,6 @@ function HeroSection({
         window.scroll.To(0,0);
     }
 
-    window.addEventListener('load', () => {
-        document.getElementById('rowHomeId').classList.remove('home__hero-text-wrapper-out');
-        document.getElementById('rowHomeId').classList.add('home__hero-text-wrapper');
-    });
-
   return (
       <>
     <div className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}>
@@ -32,7 +27,7 @@ function HeroSection({
         <div className="container">
             <div className='row home__hero-row'style={{display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}>
                     <div className='col'>
-                        <div id="rowHomeId" className={animation ? 'home__hero-text-wrapper-out' : 'home__hero-text-wrapper'}>
+                        <div className={animation ? 'home__hero-text-wrapper-out' : 'home__hero-text-wrapper'}>
                             <div className='top-line'>{topLine}</div>
                         <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
                         <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'}>{description}</p>

@@ -9,7 +9,7 @@ export const homeObjOne = {
   imgStart: '',
   img: 'images/news1.svg',
   alt: 'Essa é a imagem de um cartão de crédito que é uma ferramenta que pode ser usada para comprar',
-  animation: true,
+  animation: false,
 }
 
 export const homeObjTwo = {
@@ -23,7 +23,8 @@ export const homeObjTwo = {
   buttonLabel: 'Começar Agora',
   imgStart: '',
   img: 'images/news2.svg',
-  alt: 'Vault'
+  alt: 'Vault',
+  animation: false,
 };
 
 export const homeObjThree = {
@@ -37,7 +38,8 @@ export const homeObjThree = {
   buttonLabel: 'Começar Agora',
   imgStart: 'start',
   img: 'images/news3.svg',
-  alt: 'Vault'
+  alt: 'Vault',
+  animation: false,
 };
 
 export const homeObjFour = {
@@ -51,7 +53,8 @@ export const homeObjFour = {
   buttonLabel: 'Começar Agora',
   imgStart: 'start',
   img: 'images/news4.svg',
-  alt: 'Vault'
+  alt: 'Vault',
+  animation: false,
 };
 
 export const animationData = {
