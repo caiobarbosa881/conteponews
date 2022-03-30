@@ -35,7 +35,7 @@ function HeroSection({
         <div className="container">
             <div className='row home__hero-row'style={{display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}>
                     <div className='col'>
-                        <div className={setHeroAnimation ? 'home__hero-text-wrapper-out' : 'home__hero-text-wrapper'}>
+                        <div className={hero ? 'home__hero-text-wrapper-out' : 'home__hero-text-wrapper'}>
                             <div className='top-line'>{topLine}</div>
                         <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
                         <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'}>{description}</p>
