@@ -1,4 +1,14 @@
-.home__hero-section {
+
+@keyframes transformer {
+  from {
+      transform: rotate(0deg) scale(0.1);
+  }
+  to {
+      transform: rotate(360deg) scale(1);
+  }
+}
+
+ .home__hero-section {
     color: #fff;
     padding: 160px 0;
   }
@@ -60,6 +70,7 @@
   
   .home__hero-img-wrapper {
     max-width: 555px;
+    animation: transformer 2s ease-in 0s;
   }
   .home__hero-img-wrapper:hover{
     transform: scale(1.1);
