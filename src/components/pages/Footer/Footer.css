@@ -60,6 +60,9 @@
     color: #fff;
     font-size: 24px;
   }
+  .social-icon-link:hover{
+    transform: scale(1.2);
+  }
   
   .social-media {
     max-width: 1000px;
