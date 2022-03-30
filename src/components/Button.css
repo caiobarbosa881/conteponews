@@ -1,99 +1,32 @@
-:root {
-    --primary: #fff;
+button {
+  background-color: #0a6bff;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  min-height: 56px;
+  min-width: 120px;
+  padding: 16px 20px;
+  position: relative;
+  text-align: center;
+  vertical-align: baseline;
+  transition: all .2s cubic-bezier(.22, .61, .36, 1);
 }
 
-.btn {
-    padding: 8px 20px;
-    border-radius: 4px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    white-space: nowrap;
+button:hover {
+  background-color: #065dd8;
+  transform: translateY(-2px);
 }
 
-.btn--primary{
-    background-color: var(--primary);
-    color: #242424;
+@media (min-width: 768px) {
+  button{
+    padding: 16px 44px;
+    min-width: 150px;
+  }
 }
-
-.btn--outline {
-    background-color: transparent;
-    color: #fff;
-    padding: 8px 20px;
-    border: 1px solid var(--primary);
-    transition: all 0.3s ease-out;
-}
-
-.btn--medium {
-    padding: 8px 20px;
-    font-size: 18px;
-}
-
-.btn--large {
-    padding: 12px 26px;
-}
-
-.btn-mobile {
-    text-align: center;
-    border-radius: 4px;
-    width: 80%;
-    text-decoration: none;
-    font-size: 24px;
-    background-color: transparent;
-    color: #fff;
-    padding: 14px 20px;
-    border: 1px solid #fff;
-    transition: all 0.3s ease-out;
-}
-
-.btn--wide {
-    padding: 12px 64px;
-    font-size: 20px;
-}
-
-.btn--large:hover, .btn--medium:hover, .btn--mobile:hover {
-    transition: all 0.3s ease-out;
-    background: #fff;
-    color: #242424;
-}
-
-.btn--wide:hover {
-    color: #fff;
-    background-color: #f00946;
-    transition: all 0.2s ease-out;
-}
-
-.red {
-    background-color: #f00946;
-    color: #fff;
-    border: none;
-}
-
-.primary {
-    background: #242424;
-    color :#fff;
-    border: none;
-}
-
-.primary:hover {
-    background-color: #fff;
-    color: #242424;
-    border: none;
-}
-
-.blue {
-    background: #276afb;
-    color :#fff;
-    border: none;
-}
-
-.green {
-    background: #25ce4a;
-    color :#fff;
-    border: none;
-}
-
-.green:hover {
-    background-color: #242424;
-}
-
