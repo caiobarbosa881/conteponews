@@ -17,7 +17,6 @@ function App() {
           <Route path='/' exact element={Home()} />
           <Route path='/products' element={Products()} />
           <Route path='/services' element={Services()} />
-          <Route path='/services' element={Services()} />
       </Routes>
     </Router>
   );

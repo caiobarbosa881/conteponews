@@ -15,6 +15,10 @@ function NavBar() {
         setLogo(true);
     });
 
+    function scrollToEnd(){
+        const scrollingElement = (document.scrollingElement || document.body);
+        scrollingElement.scrollTop = scrollingElement.scrollHeight;
+    }
 
     const handleClick = () => setClick(!click);
 
@@ -47,10 +51,10 @@ function NavBar() {
                             Produtos
                         </Link>
                     </li>
-                    <li className='nav-item'>
-                        <Link to='/'  className='nav-links'>
-                            Contatos
-                        </Link>
+                    <li className='nav-item' >
+                        <Link to='/' className='nav-links' onClick={scrollToEnd}>
+                            Mais Informações
+                        </Link>              
                     </li>
                 </ul>
             </div>

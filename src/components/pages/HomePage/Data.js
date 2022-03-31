@@ -23,7 +23,7 @@ export const homeObjTwo = {
   buttonLabel: 'Começar Agora',
   imgStart: '',
   img: 'images/news2.svg',
-  alt: 'Vault',
+  alt: 'Pessoa com um Escudo ao lado que representa proteção e segurança nas informações',
   animation: false,
 };
 
@@ -38,7 +38,7 @@ export const homeObjThree = {
   buttonLabel: 'Começar Agora',
   imgStart: 'start',
   img: 'images/news3.svg',
-  alt: 'Vault',
+  alt: 'Pessoa com um envelope de cartas com informações',
   animation: false,
 };
 
@@ -53,7 +53,7 @@ export const homeObjFour = {
   buttonLabel: 'Começar Agora',
   imgStart: 'start',
   img: 'images/news4.svg',
-  alt: 'Vault',
+  alt: 'Mão segurando um celular',
   animation: false,
 };
 
