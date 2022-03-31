@@ -20,6 +20,11 @@ function NavBar() {
         scrollingElement.scrollTop = scrollingElement.scrollHeight;
     }
 
+    function scrollToStart(){
+        const scrollingElement = (document.scrollingElement || document.body);
+        scrollingElement.scrollTop = -scrollingElement.scrollHeight;
+    }
+
     const handleClick = () => setClick(!click);
 
   return (
@@ -35,24 +40,24 @@ function NavBar() {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='/' className='nav-links'>
+                        <Link to='/' onClick={scrollToStart} className='nav-links'>
                             Página Inicial
                         </Link>
                     </li>
 
                     <li className='nav-item'>
-                        <Link to='/Services' className='nav-links'>
+                        <Link to='/Services' onClick={scrollToStart} className='nav-links'>
                             Serviços
                         </Link>
                     </li>
 
                     <li className='nav-item'>
-                        <Link to='/Products' className='nav-links'>
+                        <Link to='/Products' onClick={scrollToStart} className='nav-links'>
                             Produtos
                         </Link>
                     </li>
                     <li className='nav-item' >
-                        <Link to='/' className='nav-links' onClick={scrollToEnd}>
+                        <Link to='/' onClick={scrollToEnd} className='nav-links'>
                             Mais Informações
                         </Link>              
                     </li>
