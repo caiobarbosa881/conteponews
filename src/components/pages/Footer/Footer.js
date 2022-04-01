@@ -10,7 +10,11 @@ import {
 } from 'react-icons/fa';
 import { BsNewspaper } from 'react-icons/bs';
 
+
+
+
 function Footer() {
+  
   return (
     <div className='footer-container'>
       <div className='footer-links'>
