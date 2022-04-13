@@ -1,65 +1,38 @@
 # conteponews
 
-<img src="https://user-images.githubusercontent.com/54036407/163222010-5e079dc6-e8b3-484c-9d88-7a552de2b2ca.png" style="height: 5%; width: 10%;" alt="image of the project imagem">
+<img src="https://user-images.githubusercontent.com/54036407/163221506-81ea942f-b55a-4db4-b6e0-6b5fc5f5e4d2.png" alt="image of the project">
 
-<img src="https://user-images.githubusercontent.com/54036407/163222010-5e079dc6-e8b3-484c-9d88-7a552de2b2ca.png" style="height: 5%; width: 10%;" alt="image of the project">
+<img src="https://user-images.githubusercontent.com/54036407/163222010-5e079dc6-e8b3-484c-9d88-7a552de2b2ca.png" alt="image of the project imagem">
 
+# About the Project
+The Project is about a landing page that promotes a Paid Subscription News App and Website.
 
-O projeto é uma landing page ou em português site institucional para um sistema de assinatura de notícias.
+### Features and Future Improvements
 
-### Features e melhorias
-
-O projeto tem suas features armazenadas abaixo:
+Some of the Features of the application
 
 - [x] Responsive Design
 - [x] Acessibility
 - [x] Animations
 - [x] User Experience
 
-## 💻 Pré-requisitos
+## 💻 Dependencies
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
-<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+<ul>
+  <li> react-dom</li>
+  <li>react-icons</li>
+  <li> react-router-dom</li>
+  <li> react-scripts</li>
+</ul>
 
-## 🚀 Instalando conteponews
-
-Para instalar o conteponews, siga estas etapas:
-
-Linux e macOS:
-```
-<comando_de_instalação>
-```
-
-Windows:
-```
-<comando_de_instalação>
-```
-
-## ☕ Usando conteponews
-
-Para usar conteponews, siga estas etapas:
+## 🚀 Running the Project
 
 ```
-<exemplo_de_uso>
+1- clone this project locally
+2- npm install in your terminal/bash/Commmand line
+3- npm start
 ```
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
-
-## 📫 Contribuindo para <nome_do_projeto>
-<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com <nome_do_projeto>, siga estas etapas:
-
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
-
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-
-## Autor
+## Author
   
-  Caio Barbosa
+  <h1>Caio Barbosa</h1>
