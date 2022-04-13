@@ -1,6 +1,9 @@
 # conteponews
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="https://user-images.githubusercontent.com/54036407/163222010-5e079dc6-e8b3-484c-9d88-7a552de2b2ca.png" style="height: 5%; width: 10%;" alt="image of the project imagem">
+
+<img src="https://user-images.githubusercontent.com/54036407/163222010-5e079dc6-e8b3-484c-9d88-7a552de2b2ca.png" style="height: 5%; width: 10%;" alt="image of the project">
+
 
 O projeto é uma landing page ou em português site institucional para um sistema de assinatura de notícias.
 
