@@ -17,10 +17,10 @@
   
   .pricing__container-card:nth-child(2) {
     transform: scale(1.05);
-    background-color: #9F616A;
+    background-color: #412e2d;
   }
   .pricing__container-card:nth-child(3) {
-    background-color: #dce922;
+    background-color: #2D412E;
   }
   
   .pricing__container-card:hover {

@@ -32,7 +32,7 @@ function NavBar() {
         <div className='navbar'>
             <div className='navbar-container container' id='navbar-container-id'>
                 <Link to='/' className="navbar-logo">
-                    <BsNewspaper className={ logo ? "navbar-icon-in" : "navbar-icon-out" }/>
+                    <BsNewspaper alt='Imagem de um Jornal' className={ logo ? "navbar-icon-in" : "navbar-icon-out" }/>
                     ContepoNews
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>

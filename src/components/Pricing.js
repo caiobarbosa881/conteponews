@@ -4,7 +4,7 @@ import { Button } from './Button';
 import { BsXDiamondFill } from 'react-icons/bs';
 import { GiCrystalize } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
-import { GiGoldBar } from 'react-icons/gi';
+import { IoDiamondOutline } from 'react-icons/io5';
 import './Pricing.css';
 
 function Pricing() {
@@ -53,9 +53,9 @@ function Pricing() {
                     <Link to="/sign-up" className='pricing__container-card'>
                         <div className='pricing__container-cardInfo'>
                             <div className='icon'>
-                              <GiGoldBar />
+                              <IoDiamondOutline />
                             </div>
-                            <h3>Leitor Golden Plus</h3>
+                            <h3>Leitor Diamond</h3>
                             <h4>RS25,00</h4>
                             <p>por mês</p>
                             <ul className='pricing__container-features'>
