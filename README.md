@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/54036407/163221506-81ea942f-b55a-4db4-b6e0-6b5fc5f5e4d2.png" alt="image of the project">
 
-<img src="https://user-images.githubusercontent.com/54036407/163222010-5e079dc6-e8b3-484c-9d88-7a552de2b2ca.png" alt="image of the project imagem">
+<img src="https://user-images.githubusercontent.com/54036407/163424533-69b0c316-6e85-4ab7-b2e1-8d0766db6867.png" alt="image of the project imagem">
 
 # About the Project
 The Project is about a landing page that promotes a Paid Subscription News App and Website.
