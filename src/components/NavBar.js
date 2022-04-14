@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { FaTimes, FaBars} from 'react-icons/fa';
 import { BsNewspaper } from 'react-icons/bs';
+import { IconContext } from 'react-icons';
 
 function NavBar() {
 
@@ -35,9 +36,11 @@ function NavBar() {
                     <BsNewspaper alt='Imagem de um Jornal' className={ logo ? "navbar-icon-in" : "navbar-icon-out" }/>
                     ContepoNews
                 </Link>
-                <div className='menu-icon' onClick={handleClick}>
-                    {click ? <FaTimes /> : <FaBars />}
+                <IconContext.Provider value={{ color: 'white' }}>
+                <div className='menu-icon' onClick={handleClick}> {click ? <FaTimes />: <FaBars />} 
                 </div>
+                </IconContext.Provider>                    
+
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
                         <Link to='/' onClick={scrollToStart} className='nav-links'>

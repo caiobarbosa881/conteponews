@@ -7,8 +7,6 @@ import Home from './components/pages/HomePage/Home';
 import Products from './components/pages/Products/Products';
 import Services from './components/pages/Services/Services';
 
-
-
 function App() {
   return (
     <Router>
